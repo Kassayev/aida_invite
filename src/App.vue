@@ -1539,7 +1539,7 @@ body {
 	/* background-image: url(./assets/images/fon-default.png); */
 	background-image: url(./assets/images/site_back.png);
 	background-position: center 0;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: 100%;
 }
 
