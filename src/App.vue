@@ -1533,6 +1533,7 @@ body {
 	max-width: 450px;
 	width: 100%;
 	margin: 0 auto;
+  padding: 0;
 }
 
 .blok-1 {
@@ -1540,7 +1541,7 @@ body {
 	background-image: url(./assets/images/site_back.png);
 	background-position: center 0;
 	background-repeat: repeat;
-	background-size: 100%;
+  background-size: cover;
 }
 
 .monument {
