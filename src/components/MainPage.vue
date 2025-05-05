@@ -49,20 +49,18 @@
                 город Хромтау<br>
                 ресторан “GOLDEN PALACE”<br>
               </h1>
-              <a target="_blank" href="https://2gis.kz/aktobe/geo/70000001082948707" class="twogis mt-3">Открыть на
-                карте</a>
-              <div style="    width: 100%;">
-              </div>
+              <a target="_blank" href="https://2gis.kz/aktobe/geo/70000001082948707" class="twogis mt-3">Открыть на карте</a>
+              <div style="    width: 100%;" />
               <div class="toi5">
                 До начала торжества:
               </div>
               <div class="toi6">
                 <div class="timer">
                   <div class="timer__items">
-                    <div class="timer__item timer__days" data-title="дней"></div>
-                    <div class="timer__item timer__hours" data-title="часов"></div>
-                    <div class="timer__item timer__minutes" data-title="минут"></div>
-                    <div class="timer__item timer__seconds" data-title="секунд"></div>
+                    <div class="timer__item timer__days" data-title="дней" />
+                    <div class="timer__item timer__hours" data-title="часов" />
+                    <div class="timer__item timer__minutes" data-title="минут" />
+                    <div class="timer__item timer__seconds" data-title="секунд" />
                   </div>
                 </div>
               </div>
@@ -92,7 +90,7 @@
                       id="contactChoice1"
                       name="zhauap"
                       v-model="selectedOption"
-                  />
+                  >
                   <label class="otvetyn" for="contactChoice1">Да, приду один (одна)</label>
 
                   <input
@@ -102,7 +100,7 @@
                       id="contactChoice2"
                       name="zhauap"
                       v-model="selectedOption"
-                  />
+                  >
                   <label class="otvetyn" for="contactChoice2">Приду с супругой (-ом)</label>
 
                   <input
@@ -112,11 +110,11 @@
                       id="contactChoice3"
                       name="zhauap"
                       v-model="selectedOption"
-                  />
+                  >
                   <label class="otvetyn" for="contactChoice3">К сожалению, не приду</label>
                 </div>
                 <div class="col-12">
-                  <input v-model="fio" class="inputname" type="text" name="name" placeholder="Ваше имя"/>
+                  <input v-model="fio" class="inputname" type="text" name="name" placeholder="Ваше имя">
                   <button :disabled="isEmpty() || isSend" @click="sendShit" class="zayotrp">Отправить</button>
                 </div>
               </div>
@@ -176,10 +174,10 @@ export default {
           chat_id: chatId,
           text: message,
         }).then(response => {
-          console.log('Message sent successfully:', response.data);
+          //console.log('Message sent successfully:', response.data);
         })
             .catch(error => {
-              console.error('Error sending message:', error);
+              //console.error('Error sending message:', error);
             });
       });
       // let  = document.querySelector('input[name="zhauap"]:checked').value;
