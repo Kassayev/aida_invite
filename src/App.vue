@@ -349,6 +349,24 @@ form.selectform {
   font-display: swap;
 }
 @font-face {
+  font-family: 'great-vibes';
+  src: url('./assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PT-Serif-Italic';
+  src: url('./assets/fonts/PT-Serif_Italic.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'PT-Serif-Regular';
+  src: url('./assets/fonts/PT-Serif_Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'monument';
   src: url('./assets/fonts/KZPFMonumentaPro-Regular.ttf') format('truetype');
   font-style: normal;
@@ -1477,7 +1495,7 @@ a.footerpolit {
     padding-bottom: 15px;
     padding-top: 6px;
     text-align: center;
-    border: 2px solid #77bdb7;
+    border: 2px solid #7F5656;
     border-radius: 50%;
 }
 .timer__item::before {
@@ -1519,7 +1537,7 @@ body {
 
 .blok-1 {
 	/* background-image: url(./assets/images/fon-default.png); */
-	background-image: url(./assets/images/saule-min.png);
+	background-image: url(./assets/images/site_back.png);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -1534,6 +1552,23 @@ body {
 .asylbek {
   text-align: center;
   font-family: asylbek;
+  font-size: 17px;
+}
+
+.great-vibes {
+  text-align: center;
+  font-family: great-vibes;
+  font-size: 17px;
+}
+
+.PT-Serif-Italic {
+  text-align: center;
+  font-family: PT-Serif-Italic;
+  font-size: 17px;
+}
+.PT-Serif-Regular {
+  text-align: center;
+  font-family: PT-Serif-Regular;
   font-size: 17px;
 }
 
@@ -1625,18 +1660,18 @@ body {
 
 .kurmetti {
 	text-align: center;
-	font-family: monument;
-	font-size: 17px;
-	background: #406462;
+  font-family: great-vibes;
+	font-size: 50px;
+	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 530px!important;
+	margin-top: 20px!important;
 }
 .kurmetti_1 {
 	text-align: center;
-	font-family: monument;
-	font-size: 22px;
-	background: #9c714b;
+  font-family: 'PT-Serif-Italic';
+	font-size: 28px;
+	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: 20px!important;
@@ -1644,14 +1679,14 @@ body {
 .kurmetti_2 {
   font-size: 17px;
 }
-.saules_title {
+.aida_title {
 	text-align: center;
-	font-family: asylbek;
+	font-family: great-vibes;
 	font-size: 50px;
-	background: #406462;
+	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 15px!important;
+	margin-top: 20px!important;
 }
 
 .shaktext {
@@ -1663,7 +1698,7 @@ body {
 }
 
 .blok-2 {
-	background-image: url(./assets/images/bg-2_2.png);
+	/*background-image: url(./assets/images/bg-2_2.png);*/
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: 125% 100%;
@@ -1681,11 +1716,11 @@ body {
 }
 
 .toi1 {
-	font-family: monument;
-	font-size: 25px;
-  color: #9c714b;
-	margin-top: 165px;
-	margin-bottom: 20px;
+	font-family: ST-Serif-Regular;
+	font-size: 17px;
+  color: #7F5656;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .toi2 {
@@ -1693,20 +1728,22 @@ body {
 }
 
 .toi3 {
-	font-family: asylbek;
-	font-size: 45px;
-  color: #406462;
+	font-family: ST-Serif-Regular;
+	font-size: 17px;
+  color: #7F5656;
 }
 
 .toi4 {
-	font-family: Cormorant-600;
+	font-family: great-vibes;
+  font-size: 32px;
+  color: #7F5656;
 }
 
 .toi5 {
 	font-family: monument;
 	margin-top: 30px;
 	margin-bottom: 20px;
-  color: #9c714b;
+  color: #7F5656;
   font-size: 17px;
 }
 
@@ -1757,25 +1794,25 @@ img.mapimage {
 	margin: 0 auto;
 	width: 240px;
 	height: 60px;
-	font-family: FuturaPT-400;
+	font-family: ST-Serif-Regular;
 	font-size: 18px;
 	text-align: center;
-	color: #fff;
-	background: linear-gradient(117.06deg, #406462 23.73%, #77bdb7 45.38%, #406462 52.48%, #77bdb7 80.6%);
+	color: #7F5656;
+	background: linear-gradient(117.06deg, #FCF8FB 23.73%, #FCF8FB 45.38%, #FCF8FB 52.48%, #FCF8FB 80.6%);
 	border-radius: 10px;
 	padding: 15px;
-	border-bottom: 4px solid #77bdb7;
-	box-shadow: 1px 3px 10px #77bdb7;
+	border-bottom: 4px solid #FCF8FB;
+	box-shadow: 1px 3px 10px #FCF8FB;
 	text-decoration: none;
 }
 
 .twogis:hover {
-	color: #fff;
+	color: #7b5c5c;
 	text-decoration: none;
 }
 
 .twogis:focus {
-	color: #fff;
+	color: #7b5c5c;
 	text-decoration: none;
 }
 
@@ -1852,12 +1889,12 @@ a.link-peaksoft {
 }
 
 .prigtitle {
-	font-family: monument;
-	font-size: 24px;
-  color: #9c714b;
+	font-family: PT-Serif-Regular;
+	font-size: 17px;
+  color: #7F5656;
 	text-align: center;
 	line-height: 26px;
-	margin-top: 60px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -2042,12 +2079,23 @@ input.inputname:focus {
 	z-index: -1;
 	opacity: 0;
 }
+.center-container {
+  display: flex;
+  justify-content: center;  /* по горизонтали */
+  align-items: center;      /* по вертикали */
+  height: 100vh;            /* или другая высота */
+}
 
 /* 亟仍� �仍亠仄亠仆�舒 label �于�亰舒仆仆仂亞仂 � .custom-radio */
-.custom-radio+label {
-	display: inline-flex;
-	align-items: center;
-	user-select: none;
+.custom-radio + label {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 12px;          /* Уменьшает размер текста */
+  line-height: 1.2;         /* Более плотное размещение строк */
+  padding: 2px 4px;         /* Меньше внутренние отступы */
+  gap: 4px;                 /* Меньше расстояние между радио и текстом (если используется gap) */
 }
 
 /* �仂亰亟舒仆亳亠 于 label 仗�亠于亟仂�仍亠仄亠仆�舒  before �仂 �仍亠亟���亳仄亳 ��亳仍�仄亳 */
@@ -2068,14 +2116,14 @@ input.inputname:focus {
 
 /* ��亳仍亳 仗�亳 仆舒于亠亟亠仆亳亳 从���仂�舒 仆舒 �舒亟亳仂 */
 .custom-radio:not(:disabled):not(:checked)+label:hover::before {
-	border-color: #406462;
+	border-color: #7F5656;
 }
 
 
 /* ��亳仍亳 亟仍� 舒从�亳于仆仂亶 �舒亟亳仂从仆仂仗从亳 (仗�亳 仆舒亢舒�亳亳 仆舒 仆亠�) */
 .custom-radio:not(:disabled):active+label::before {
-	background-color: #406462;
-	border-color: #406462;
+	background-color: #7F5656;
+	border-color: #7F5656;
 }
 
 /* ��亳仍亳 亟仍� �舒亟亳仂从仆仂仗从亳, 仆舒�仂亟��亠亶�� 于 �仂从��亠 */
@@ -2611,7 +2659,7 @@ span.newprice {
 
 @media (max-width: 454px) {
 	.kurmetti {
-		margin-top: 480px!important;
+		margin-top: 30px!important;
 	}
 }
 

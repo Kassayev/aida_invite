@@ -4,130 +4,100 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="kurmetti">
-                            Құрметті ағайын-туыс, <br>
-                          Бауырлар, құда-жекжат, <br>
-                          Нағашы-жиен, бөлелер, <br>
-                          Әріптестер, дос-жарандар
-                        </h1>
+                      <h1 class="kurmetti">
+                        Дорогие гости!
+                      </h1>
                         <h1 class="kurmetti_1">
-                            Cіздерді қызымыз
+                            Приглашаем Вас <br>
+                          разделить с нами <br>
+                          праздник - <br>
+                          қыз ұзату <br>
+                          нашей дочери
                         </h1>
-                        <h1 class="saules_title">
-                            Cауленің Ұзату
+
+                        <h1 class="aida_title">
+                            Аиды
                         </h1>
-                      <h1 class="kurmetti_1 kurmetti_2">
+<!--                      <h1 class="kurmetti_1 kurmetti_2">
                         Тойына арналған <br>
                         Дастарханымыздың қадірлі <br>
                         Қонағы болуға шақырамыз!
-                      </h1>
+                      </h1>-->
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="blok-2 sitecontainer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="abouttoi">
-                            <div class="toi1">
-                              Той иелері
-                            </div>
-                            <div class="toi3">
-                              Қайрат-Шайза
-                            </div>
-                            <div class="toi3">
-                              2024
-                            </div>
-                            <h1 class="monument brow font-xs">
-                              23 маусым
-                            </h1>
-                            <h1 class="monument brow font-xs">
-                              16:00
-                            </h1>
-                            <h1 class="monument brow font-xs mt-3">
-                              Мекен-жаймыз:
-                            </h1>
-                            <h1 class="asylbek blue font-ml mt-3">
-                              Астана қаласы <br>
-                              Хусейн Бен Талал көшесі 25 <br>
-                              "Wyndham Garden Astana" <br>
-                              мейрамханасы
-                            </h1>
-                          <a target="_blank" href="https://2gis.kz/astana/geo/70000001027222031/71.407466,51.082111" class="twogis mt-3">Карта арқылы ашу</a>
-                            <div style="    width: 100%;">
-                            </div>
-                            <div class="toi5">
-                                Тойдың басталуына қалды:
-                            </div>
-                            <div class="toi6">
-                                <div class="timer">
-                                    <div class="timer__items">
-                                        <div class="timer__item timer__days" data-title="күн"></div>
-                                        <div class="timer__item timer__hours" data-title="сағат"></div>
-                                        <div class="timer__item timer__minutes" data-title="минут"></div>
-                                        <div class="timer__item timer__seconds" data-title="секунд"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="toi8"></div>
-                            <h1 class="asylbek blue font-l mt-3">
-                              Құрметті ханымдар!
-                            </h1>
-                          <h1 class="asylbek blue font-l mt-3">
-                            Киім үлгіңізді төмендегі<br>
-                            түстерден таңдауыңызды сұраймыз!
-                          </h1>
-                            <div class="toi10 palette mt-4">
-                              <div class="palette__row mb-2">
-                                <div class="palette__item palette__item--1 mr-3"></div>
-                                <div class="palette__item palette__item--2 mr-2"></div>
-                                <div class="palette__item palette__item--3"></div>
-                              </div>
-                              <div class="palette__row">
-                                <div class="palette__item palette__item--4 mr-2"></div>
-                                <div class="palette__item palette__item--5 mr-2"></div>
-                                <div class="palette__item palette__item--6 mr-2"></div>
-                                <div class="palette__item palette__item--7"></div>
-                              </div>
-                            </div>
-                        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="abouttoi">
+                  <div class="toi1">
+                    Организаторы торжества
+                  </div>
+                  <div class="toi3">
+                    Малик и Ботагоз
+                  </div>
+                  <div class="toi4">
+                    2 августа 2025 года
+                  </div>
+                  <div class="toi4">
+                    17:00
+                  </div>
+                  <h1 class="toi1">
+                    Место проведения:
+                  </h1>
+                  <h1 class="toi3">
+                    город Хромтау<br>
+                    ресторан “GOLDEN PALACE”<br>
+                  </h1>
+                  <a target="_blank" href="https://2gis.kz/aktobe/geo/70000001082948707" class="twogis mt-3">Открыть на карте</a>
+                  <div style="    width: 100%;">
+                  </div>
+                  <div class="toi5">
+                    До начала торжества:
+                  </div>
+                  <div class="toi6">
+                    <div class="timer">
+                      <div class="timer__items">
+                        <div class="timer__item timer__days" data-title="дней"></div>
+                        <div class="timer__item timer__hours" data-title="часов"></div>
+                        <div class="timer__item timer__minutes" data-title="минут"></div>
+                        <div class="timer__item timer__seconds" data-title="секунд"></div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="blok-5 sitecontainer">
+        <div class="blok-1 sitecontainer">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="prigtitle">
-                            Құрметті қонақ, <br> тойға келетініңізді нақтылаңыз:
+                          Пожалуйста,<br>
+                          подтвердите свое присутствие:
                         </div>
-                        <div class="prtdop" style="display:none;">
-                            Біздің салтанатымыздың қонағы боласыз ба?
-                        </div>
-                        <div id="form-1" class="zayavka">
+                        <div id="form-1" class="container">
+                          <div class="row">
                             <input type="hidden" name="shaqyruid" value="1787">
                             <input type="hidden" name="konakid" value="0">
-                            <input class="custom-radio" checked="yep" type="radio" value="Иә, өзім барамын!" id="contactChoice1" name="zhauap"  >
-                            <label class="otvetyn" for="contactChoice1">Иә, өзім барамын</label>
+                            <input class="custom-radio" checked="yep" type="radio" value="Да, приду один (одна)" id="contactChoice1" name="zhauap"  >
+                            <label class="otvetyn" for="contactChoice1">Да, приду один (одна)</label>
                             <br>
-                            <input class="custom-radio" checked="yep" type="radio" value="Жұбайыммен бірге барамын" id="contactChoice2" name="zhauap" >
-                            <label class="otvetyn" for="contactChoice2">Жұбайыммен бірге барамын</label>
+                            <input class="custom-radio" checked="yep" type="radio" value="Приду с супругой (-ом)" id="contactChoice2" name="zhauap" >
+                            <label class="otvetyn" for="contactChoice2">Приду с супругой (-ом)</label>
                             <br>
-                            <input class="custom-radio" checked="yep" type="radio" value="Өкінішке орай, келе алмаймын" id="contactChoice3" name="zhauap" >
-                            <label class="otvetyn" for="contactChoice3">Өкінішке орай, келе алмаймын</label>
+                            <input class="custom-radio" checked="yep" type="radio" value="К сожалению, не приду" id="contactChoice3" name="zhauap" >
+                            <label class="otvetyn" for="contactChoice3">К сожалению, не приду</label>
                             <br>
-                            <span class="spanzay">Аты-жөніңіз:</span>
-                            <input v-model="fio" class="inputname" type="text" name="name" placeholder="Аты-жөніңіз">
-                            <span class="spanzay">Той иелеріне тілегіңіз:</span>
-                            <textarea v-model="greet" name="tilek" class="inputtilek" placeholder="Тілегіңізді осында жазыңыз"></textarea>
-                            <button :disabled="isEmpty() || isSend" @click="sendShit()" class="zayotrp">Жіберу</button>
+                            <input v-model="fio" class="inputname" type="text" name="name" placeholder="Ваше имя">
+                            <button :disabled="isEmpty() || isSend" @click="sendShit()" class="zayotrp">Отправить</button>
+                          </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <audio-player></audio-player>
         </div>
     </div>
 </template>
@@ -204,28 +174,28 @@ export default{
         this.$nextTick(() => {
             // конечная дата
             //const deadline = new Date(2022, 11, 05, 18:00:00);
-            const deadline = new Date(2024, 5, 23, 16, 0, 0);
+            const deadline = new Date(2025, 7, 2, 17, 0, 0);
             // new Date(yyyy, mm-1, dd, hh, mm, ss);
             // id таймера
             let timerId = null;
-            
+
             // склонение числительных
             function declensionNum(num, words) {
                 return words[(num % 100 > 4 && num % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(num % 10 < 5) ? num % 10 : 5]];
             }
-            
+
             // вычисляем разницу дат и устанавливаем оставшееся времени в качестве содержимого элементов
             function countdownTimer() {
                 const diff = deadline - new Date();
                     if (diff <= 0) {
                     clearInterval(timerId);
                 }
-                
+
                 const days = diff > 0 ? Math.floor(diff / 1000 / 60 / 60 / 24) : 0;
                 const hours = diff > 0 ? Math.floor(diff / 1000 / 60 / 60) % 24 : 0;
                 const minutes = diff > 0 ? Math.floor(diff / 1000 / 60) % 60 : 0;
                 const seconds = diff > 0 ? Math.floor(diff / 1000) % 60 : 0;
-                
+
                 const $days = document.querySelector('.timer__days');
                 const $hours = document.querySelector('.timer__hours');
                 const $minutes = document.querySelector('.timer__minutes');
@@ -236,21 +206,21 @@ export default{
                     $minutes.innerText  = minutes < 10 ? '0' + minutes : minutes;
                     $seconds.innerText  = seconds < 10 ? '0' + seconds : seconds;
                 }
-                
-                $days.dataset.title = declensionNum(days, ['күн', 'күн', 'күн']);
-                $hours.dataset.title = declensionNum(hours, ['сағат', 'сағат', 'сағат']);
+
+                $days.dataset.title = declensionNum(days, ['дней', 'дней', 'дней']);
+                $hours.dataset.title = declensionNum(hours, ['часов', 'часов', 'часов']);
                 $minutes.dataset.title = declensionNum(minutes, ['минут', 'минут', 'минут']);
                 $seconds.dataset.title = declensionNum(seconds, ['секунд', 'секунд', 'секунд']);
             }
-            
+
             // вызываем функцию countdownTimer
             countdownTimer();
-            
+
             const $days = document.querySelector('.timer__days');
             // const $dayscontent = document.querySelector('.dayscontent');
             // const $dayscontent2 = document.querySelector('.dayscontent2');
             // $dayscontent.textContent = $days.textContent;
-            
+
             if (parseInt($days.textContent) > 100) {
                 $days.textContent = '30';
             } else if (parseInt($days.textContent) > 70) {
@@ -258,9 +228,9 @@ export default{
             } else {
                 $days.textContent = '10';
             }
-            
+
             // $dayscontent2.textContent = $days.textContent;
-            
+
             var discountprice = 18900 - 18900 * parseInt($days.textContent) / 100;
             discountprice = Math.round(discountprice / 10) * 10;
             discountprice = String(discountprice).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, "$1 ");
