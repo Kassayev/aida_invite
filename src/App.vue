@@ -1654,7 +1654,7 @@ body {
 }
 
 .palette__item--7 {
-  background-image: url("./assets/images/color7.jpg");
+  /*background-image: url("./assets/images/color7.jpg");*/
   background-size: contain;
 }
 
@@ -1740,13 +1740,17 @@ body {
 }
 
 .toi5 {
-	font-family: monument;
+	font-family: PT-Serif-Regular;
 	margin-top: 30px;
 	margin-bottom: 20px;
   color: #7F5656;
   font-size: 17px;
 }
-
+.radio-group {
+  display: flex;
+  flex-direction: column; /* Или row для горизонтального расположения */
+  gap: 10px;
+}
 .toi7 {
 	height: 1px;
 	width: 70%;
@@ -1798,7 +1802,7 @@ img.mapimage {
 	font-size: 18px;
 	text-align: center;
 	color: #7F5656;
-	background: linear-gradient(117.06deg, #FCF8FB 23.73%, #FCF8FB 45.38%, #FCF8FB 52.48%, #FCF8FB 80.6%);
+	background: linear-gradient(117.06deg, #fdf5fd 23.73%, #f6eef4 45.38%, #f6ebef 52.48%, #fbf1fa 80.6%);
 	border-radius: 10px;
 	padding: 15px;
 	border-bottom: 4px solid #FCF8FB;
@@ -1913,16 +1917,20 @@ a.link-peaksoft {
 }
 
 .inputname {
-	display: block;
-	background: #FFF9F5;
-	border: 0.5px solid #20741D;
-	border-radius: 4px;
-	font-family: FuturaPT-400;
-	font-size: 18px;
-	height: 45px;
-	width: 100%;
-	padding-left: 15px;
-	margin-bottom: 5px;
+  display: flex;
+  height: 55px;
+  margin: 20px auto;
+  font-family: PT-Serif-Regular;
+  font-size: 18px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0 10px;
+  border: 2px solid #7F5656;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 input.inputname:focus {
@@ -1947,22 +1955,22 @@ input.inputname:focus {
   margin: 0 auto;
   width: 240px;
   height: 60px;
-  font-family: FuturaPT-400;
+  font-family: ST-Serif-Regular;
   font-size: 18px;
   text-align: center;
   color: #fff;
-  background: linear-gradient(117.06deg, #406462 23.73%, #406462 45.38%, #406462 52.48%, #77bdb7 80.6%);
+  background: linear-gradient(117.06deg, #7F5656 23.73%, #784d4d 45.38%, #733a3a 52.48%, #784444 80.6%);
   border-radius: 10px;
   padding: 15px;
-  border-bottom: 4px solid #406462;
-  box-shadow: 1px 3px 10px #406462;
+  border-bottom: 4px solid #7F5656;
+  box-shadow: 1px 3px 10px #7F5656;
   margin-top: 20px;
   margin-bottom: 30px;
   cursor: pointer;
 }
 
 .zayotrp:hover {
-  background: linear-gradient(117.06deg, #406462 23.73%, #77bdb7 45.38%, #406462 52.48%, #77bdb7 80.6%);
+  background: linear-gradient(117.06deg, #704b4b 23.73%, #8a5e5e 45.38%, #704b4b 52.48%, #8a5e5e 80.6%);
 }
 
 .zayotrp:disabled {
@@ -2043,8 +2051,8 @@ input.inputname:focus {
 }
 
 .otvetyn {
-  font-family: monument;
-  color: #406462FF;
+  font-family: PT-Serif-Regular;
+  color: #7F5656;
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -2098,6 +2106,12 @@ input.inputname:focus {
   gap: 4px;                 /* Меньше расстояние между радио и текстом (если используется gap) */
 }
 
+.custom-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* �仂亰亟舒仆亳亠 于 label 仗�亠于亟仂�仍亠仄亠仆�舒  before �仂 �仍亠亟���亳仄亳 ��亳仍�仄亳 */
 .custom-radio+label::before {
 	content: '';
@@ -2133,19 +2147,19 @@ input.inputname:focus {
 
 /* ��亳仍亳 亟仍� �舒亟亳仂从仆仂仗从亳, 仆舒�仂亟��亠亶�� 于 �仂从��亠 亳 仆亠 仆舒�仂亟��亠亶�� 于 �仂��仂�仆亳亳 checked */
 .custom-radio:focus:not(:checked)+label::before {
-	border-color: #406462;
+	border-color: #7F5656;
 }
 
 /* ��亳仍亳 亟仍� �舒亟亳仂从仆仂仗从亳, 仆舒�仂亟��亠亶�� 于 �仂��仂�仆亳亳 checked */
 .custom-radio:checked+label::before {
-	border-color: #406462;
-	background-color: #406462;
+	border-color: #7F5656;
+	background-color: #7F5656;
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
 /* ��亳仍亳 亟仍� �舒亟亳仂从仆仂仗从亳, 仆舒�仂亟��亠亶�� 于 �仂��仂�仆亳亳 disabled */
 .custom-radio:disabled+label::before {
-	background-color: #406462;
+	background-color: #7F5656;
 }
 
 .custom-checkbox {
@@ -2176,8 +2190,8 @@ input.inputname:focus {
 }
 
 .custom-checkbox:checked+label::before {
-	border-color: #406462;
-	background-color: #406462;
+	border-color: #7F5656;
+	background-color: #7F5656;
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 

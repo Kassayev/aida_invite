@@ -1,3 +1,4 @@
+<!--
 <template>
     <div>
       <audio ref="audioElement">
@@ -48,4 +49,4 @@
       },
     },
   };
-  </script>
+  </script>-->
