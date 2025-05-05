@@ -1749,7 +1749,7 @@ body {
 .radio-group {
   display: flex;
   flex-direction: column; /* Или row для горизонтального расположения */
-  gap: 10px;
+  /*gap: 10px;*/
 }
 .toi7 {
 	height: 1px;
@@ -2054,7 +2054,7 @@ input.inputname:focus {
   font-family: PT-Serif-Regular;
   color: #7F5656;
 	font-size: 18px;
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
 
 
@@ -2100,7 +2100,7 @@ input.inputname:focus {
   display: inline-flex;
   align-items: center;
   user-select: none;
-  font-size: 12px;          /* Уменьшает размер текста */
+  font-size: 15px;          /* Уменьшает размер текста */
   line-height: 1.2;         /* Более плотное размещение строк */
   padding: 2px 4px;         /* Меньше внутренние отступы */
   gap: 4px;                 /* Меньше расстояние между радио и текстом (если используется gap) */
