@@ -1733,6 +1733,7 @@ body {
 	font-family: PT-Serif-Regular;
 	font-size: 17px;
   color: #7F5656;
+  margin-bottom: 5px;
 }
 
 .toi4 {

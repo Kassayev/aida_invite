@@ -46,10 +46,13 @@
               <div class="toi1" >
                 Место проведения:
               </div>
-              <h1 class="toi3">
-                город Хромтау<br>
-                ресторан “GOLDEN PALACE”<br>
-              </h1>
+              <div class="toi3">
+                город Хромтау
+              </div>
+              <div></div>
+              <div class="toi3">
+                ресторан “GOLDEN PALACE”
+              </div>
               <a target="_blank" href="https://2gis.kz/aktobe/geo/70000001082948707" class="twogis mt-3">Открыть на карте</a>
               <div style="    width: 100%;" />
               <div class="toi5">
