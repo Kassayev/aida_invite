@@ -1487,6 +1487,7 @@ a.footerpolit {
     color: #202020;
 }
 .timer__item {
+    font-family: PT-Serif-Regular;
     position: relative;
     width: 60px;
     height: 60px;
@@ -1497,6 +1498,7 @@ a.footerpolit {
     text-align: center;
     border: 2px solid #7F5656;
     border-radius: 50%;
+    color: #7F5656;
 }
 .timer__item::before {
     content: attr(data-title);
