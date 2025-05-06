@@ -1661,7 +1661,7 @@ body {
 .kurmetti {
 	text-align: center;
   font-family: great-vibes;
-	font-size: 50px;
+	font-size: 45px;
 	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -2673,7 +2673,7 @@ span.newprice {
 
 @media (max-width: 454px) {
 	.kurmetti {
-		margin-top: 30px!important;
+		margin-top: 60px!important;
 	}
 }
 
