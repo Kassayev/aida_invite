@@ -1674,7 +1674,7 @@ body {
 	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 20px!important;
+	margin-top: 50px!important;
 }
 .kurmetti_2 {
   font-size: 17px;
@@ -1686,7 +1686,7 @@ body {
 	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 20px!important;
+	margin-top: 50px!important;
 }
 
 .shaktext {
@@ -1719,7 +1719,7 @@ body {
 	font-family: ST-Serif-Regular;
 	font-size: 17px;
   color: #7F5656;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 5px;
 }
 
@@ -1737,11 +1737,12 @@ body {
 	font-family: great-vibes;
   font-size: 32px;
   color: #7F5656;
+  margin-top: 30px;
 }
 
 .toi5 {
 	font-family: PT-Serif-Regular;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-bottom: 20px;
   color: #7F5656;
   font-size: 17px;
@@ -1794,6 +1795,7 @@ img.mapimage {
 }
 
 .twogis {
+  margin-top: 50px;
 	display: block;
 	margin: 0 auto;
 	width: 240px;
@@ -1958,19 +1960,20 @@ input.inputname:focus {
   font-family: ST-Serif-Regular;
   font-size: 18px;
   text-align: center;
-  color: #fff;
-  background: linear-gradient(117.06deg, #7F5656 23.73%, #784d4d 45.38%, #733a3a 52.48%, #784444 80.6%);
+  color: #7F5656;
+  background: linear-gradient(117.06deg, #fdf5fd 23.73%, #f6eef4 45.38%, #f6ebef 52.48%, #fbf1fa 80.6%);
   border-radius: 10px;
   padding: 15px;
-  border-bottom: 4px solid #7F5656;
-  box-shadow: 1px 3px 10px #7F5656;
+  border-bottom: 4px solid #FCF8FB;
+  box-shadow: 1px 3px 10px #FCF8FB;
   margin-top: 20px;
   margin-bottom: 30px;
   cursor: pointer;
 }
 
 .zayotrp:hover {
-  background: linear-gradient(117.06deg, #704b4b 23.73%, #8a5e5e 45.38%, #704b4b 52.48%, #8a5e5e 80.6%);
+  background: linear-gradient(117.06deg, #7F5656 23.73%, #7F5656 45.38%, #7F5656 52.48%, #7F5656 80.6%);
+  color: #ffffff;
 }
 
 .zayotrp:disabled {
