@@ -31,7 +31,7 @@
           <div class="col-12">
             <div class="abouttoi">
               <div class="toi1">
-                Организаторы торжества
+                Организаторы торжества:
               </div>
               <div class="toi3">
                 Малик и Ботагоз
