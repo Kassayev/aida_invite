@@ -1674,7 +1674,7 @@ body {
 	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 50px!important;
+	margin-top: 20px!important;
 }
 .kurmetti_2 {
   font-size: 17px;
@@ -1686,7 +1686,7 @@ body {
 	background: #7F5656;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin-top: 50px!important;
+	margin-top: 20px!important;
 }
 
 .shaktext {
@@ -1738,6 +1738,12 @@ body {
   font-size: 32px;
   color: #7F5656;
   margin-top: 30px;
+}
+.toi44 {
+	font-family: great-vibes;
+  font-size: 32px;
+  color: #7F5656;
+  margin-top: 5px;
 }
 
 .toi5 {
