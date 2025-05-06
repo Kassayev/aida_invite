@@ -1718,7 +1718,7 @@ body {
 }
 
 .toi1 {
-	font-family: ST-Serif-Regular;
+	font-family: PT-Serif-Regular;
 	font-size: 17px;
   color: #7F5656;
 	margin-top: 30px;
@@ -1730,7 +1730,7 @@ body {
 }
 
 .toi3 {
-	font-family: ST-Serif-Regular;
+	font-family: PT-Serif-Regular;
 	font-size: 17px;
   color: #7F5656;
 }
@@ -1808,7 +1808,7 @@ img.mapimage {
 	margin: 0 auto;
 	width: 240px;
 	height: 60px;
-	font-family: ST-Serif-Regular;
+	font-family: PT-Serif-Regular;
 	font-size: 18px;
 	text-align: center;
 	color: #7F5656;
@@ -1965,7 +1965,7 @@ input.inputname:focus {
   margin: 0 auto;
   width: 240px;
   height: 60px;
-  font-family: ST-Serif-Regular;
+  font-family: PT-Serif-Regular;
   font-size: 18px;
   text-align: center;
   color: #7F5656;
